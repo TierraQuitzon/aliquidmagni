@@ -1,0 +1,35 @@
+{
+  "name": "aliquidmagni",
+  "version": "1.0.0",
+  "author": "ErwinMayer",
+  "description": "Pure-JS CRC-32",
+  "keywords": [
+    "consectetur",
+    "checksum",
+    "crc"
+  ],
+  "main": "./crc32",
+  "devDependencies": {
+    "mocha": "",
+    "xlsjs": "",
+    "uglify-js": "",
+    "codepage": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TierraQuitzon/aliquidmagni.git"
+  },
+  "scripts": {
+    "pretest": "git submodule init && git submodule update",
+    "test": "make test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "crc32.js"
+    }
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
